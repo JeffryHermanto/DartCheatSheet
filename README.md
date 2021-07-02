@@ -58,7 +58,7 @@ String concatXY = '$x$y'; // result is '62'
 
 ## Functions
 Dart lang is an OOL(Object-oriented language), In this language, functions are objects and have a type, Function. This implies that functions can be assigned to 
-variables or passed as args to other functions. Interestingly, you can also call an instance of a class as if it were a fuction. That's awesome, right?
+variables or passed as args to other functions. Interestingly, you can also call an instance of a class as if it were a function. That's awesome, right?
 
 ###  Example
 
@@ -208,7 +208,7 @@ final credMap = {
 } // A map of user credentials
 ```
 
-You maybe wondering why we didn't explicitly declare a type for all of the collections above. It's interesting to know that dart's type inference can assign types to these variables for you. In this case, the inferred types are List<String>, Set<String> and Map<String,String>.
+You maybe wondering why we didn't explicitly declare a type for all of the collections above. It's interesting to know that dart's type inference can assign types to these variables for you. In this case, the inferred types are List<String>, Set<String> and Map<String, String>.
 
 Please note that you can choose to specify a type for your variable declaration like this:
 
@@ -236,7 +236,7 @@ String get fullName => '$_firstName $_middleName $_lastName'; // result: 'Michae
 
 ## Iterations
 
-Just like every other programming language out there, you can perform iterations in dart. Here is a for loop example
+Just like every other programming language out there, you can perform iterations in dart. Here is a for loop example:
 
 ### Example
 
@@ -420,7 +420,6 @@ The following libraries and packages are useful across Dart platform:
    A powerful, opinionated alternative to json_serializable.
 
 You need to serialize and deserialize JSON in your Flutter project? [see this example](https://flutter.dev/docs/development/data-and-backend/json) to quickly get started.
-
 
 
 ## Reading and decoding a file
